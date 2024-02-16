@@ -3,17 +3,17 @@
 all:
   hosts:
     server:
-      ansible_host: 10.31.0.70
-      ansible_user: user
-      ansible_ssh_pass: P@ssw0rd
-      ansible_sudo_pass: P@ssw0rd
+      ansible_host: 
+      ansible_user:
+      ansible_ssh_pass:
+      ansible_sudo_pass:
     local:
-      ansible_host: 10.31.0.61
-      ansible_user: pena
-      ansible_ssh_pass: 12344321
-      ansible_sudo_pass: 12344321
+      ansible_host: 
+      ansible_user: 
+      ansible_ssh_pass: 
+      ansible_sudo_pass: 
     vova:
-      ansible_host: 10.31.0.92
-      ansible_user: user
-      ansible_ssh_pass: P@ssw0rd
-      ansible_sudo_pass: P@ssw0rd
+      ansible_host: 
+      ansible_user: 
+      ansible_ssh_pass: 
+      ansible_sudo_pass: 
