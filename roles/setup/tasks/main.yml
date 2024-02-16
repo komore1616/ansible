@@ -1,0 +1,10 @@
+---
+- name: Example clone of a single branch
+  ansible.builtin.git:
+    repo: https://github.com/komore1616/moodle.git
+    dest: /app/moodle
+
+- name: Bring up Docker Compose         
+  community.docker.docker_compose:
+    project_src: /app/moodle
+    state: present

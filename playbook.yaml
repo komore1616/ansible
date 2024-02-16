@@ -1,0 +1,14 @@
+---
+- name: install docker
+  become: true
+  hosts: vova
+  remote_user: user
+  roles:
+    - dockerinstall
+
+- name: clone and run compose
+  become: true
+  hosts: vova
+  remote_user: user
+  roles:
+    - setup
